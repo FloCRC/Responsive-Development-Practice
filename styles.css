@@ -9,14 +9,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(84, 84, 84, 0.5);
+    width: min-content;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
 }
 
 .result {
-    background-image: linear-gradient(rgb(24, 49, 158), rgb(111, 0, 255));
+    background-image: linear-gradient(rgb(30, 71, 255), rgb(122, 39, 254));
     width: 300px;
     color: white;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,12 +39,12 @@ h6 {
 }
 
 .resultValue {
-    background-image: linear-gradient(rgb(111, 0, 255), rgb(24, 49, 158));
+    background-image: linear-gradient(rgb(122, 39, 254), rgb(26, 61, 216));
     width: 110px;
     height: 110px;
     border-radius: 100%;
     text-align: center;
-    
+    font-weight: 500;
 }
 
 .resultMessage {
@@ -80,7 +87,7 @@ h3 {
 
 .sumCat1 {
     border-radius: 10px;
-    background-color: rgba(223, 127, 128, 0.3);
+    background-color: rgba(223, 127, 128, 0.2);
     color: rgb(235, 53, 53);
     padding: 0 20px;
     margin: 3px 10px;
@@ -92,7 +99,7 @@ h3 {
 
 .sumCat2 {
     border-radius: 10px;
-    background-color: rgba(226, 219, 87, 0.3);
+    background-color: rgba(226, 219, 87, 0.2);
     color: rgb(228, 189, 45);
     padding: 0 20px;
     margin: 3px 10px;
@@ -104,7 +111,7 @@ h3 {
 
 .sumCat3 {
     border-radius: 10px;
-    background-color: rgba(95, 223, 95, 0.3);
+    background-color: rgba(95, 223, 95, 0.2);
     color: rgb(28, 134, 33);
     padding: 0 20px;
     margin: 3px 10px;
@@ -116,7 +123,7 @@ h3 {
 
 .sumCat4 {
     border-radius: 10px;
-    background-color: rgba(95, 125, 223, 0.3);
+    background-color: rgba(95, 125, 223, 0.2);
     color: rgb(14, 40, 134);
     padding: 0 20px;
     margin: 3px 10px;
@@ -127,7 +134,7 @@ h3 {
 }
 
 .num {
-    color: grey;
+    color: rgba(87, 87, 87, 0.6);
 }
 
 strong {
@@ -141,15 +148,11 @@ button {
     color: white;
     font-size: 1rem;
     padding: 10px 20px;
-    margin: 3px 10px;
+    margin: 3px 10px 10px 10px;
 }
 
 @media screen and (min-width: 600px) {
     .container {
         flex-direction: row;
-    }
-    .result {
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
     }
 }
